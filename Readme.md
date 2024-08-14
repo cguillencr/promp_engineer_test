@@ -1,16 +1,16 @@
 
 ## Exercise 1: Importance of Clear and Concise Prompts
-[Test](Exercise1.md)
+[Test](exercises/Exercise1.md)
 
 The first output generated with `Granite` is more open and narrative, while changing both the model to `Llama3 8B Instruct` and the input required, the result in a more structured and precise. This shift in the output illustrates how variations in the model and input data can influence the style and clarity of the response.
 
 ## Exercise 2: Exploring Different Types of Prompts
-[Test](Exercise2.md)
+[Test](exercises/Exercise2.md)
 
 It can be noted how the model responded in the first test by understanding that the statement was a question, and it generated 10 advantages of reading. In the second test, it also responded to the statement by reaffirming the prompt’s assertion, but somehow understood that this was no longer a question. Finally, in the third test, the model provided the initial three advantages that it had given in the first test."
 
 ## Exercise 3: Using Temperature and Top P Sampling
-[Test](Exercise3.md)
+[Test](exercises/Exercise3.md)
 
 In test 2, by increasing the temperature, the model generated and added this additional block of text:
 ```
@@ -33,7 +33,7 @@ These paragraphs seem useful to me, as they help to better connect all the exist
 The final test 5 is similar to test 2, but the `Top P` value was changed from 1 to 0.95. The resulting response is quite different; while it retains the same meaning, it feels as though it was written by someone else.
 
 ## Exercise 4: Controlling Response Length with Tokens
-[Test](Exercise4.md)
+[Test](exercises/Exercise4.md)
 
 The response is similar but slightly longer, although it started to 'hallucinate' with the following phrase:
 ```
@@ -45,43 +45,64 @@ Your assistant!) to fill in the required text."
 This version explains the hallucination more clearly and provides context for why the additional text might be seen as off-topic or unexpected
 
 ## Exercise 5: Structuring Prompts
-[Test](Exercise5.md)
+[Test](exercises/Exercise5.md)
 This strategy "Chain-of-Thought Prompting" because you could append new part to the result while the context is valiadted at the same time.
 
 
 ## Exercise 6: Dynamic Prompting with Conditional Logic
-[Test](Exercise6.md)
+[Test](exercises/Exercise6.md)
 
 
 ## Exercise 7: Designing Effective System Prompts for Security and Ethical Correctness
-[Test](Exercise7.md)
+[Test](exercises/Exercise7.md)
 The model is not sharing sensitive information of the user I tried.
 
 ## Exercise 9: Implementing in Industry-Specific Use Cases
+[Test](exercises/Exercise9.md)
 While you specify the segment the recomandations are better.
 
 ## Exercise 10: Evaluating and Testing Prompts using generated syntetic data
+[Test](exercises/Exercise10.md)
 
 ## Exercise 11: Using Tags to Structure Prompts
+[Test](exercises/Exercise11.md)
+I tried 2 test with/without tasg ... The ouput is differente but both achieve the request. 
 
 ## Exercise 12: Importance of correct wording
+[Test](exercises/Exercise12.md)
+When I added the script word at the second try, the model give me the python code
 
 ## Exercise 13: Crafting Different Variations
+[Test](exercises/Exercise13.md)
+The seconf output is more specialized
 
 ## Exercise 14: Feedback and Iteration
+[Test](exercises/Exercise14.md)
+I like this case because is simimar than Chain-of-Thought (CoT) approach and the output is better with each try in the same context.
 
 ## Exercise 15: Applying Prompts in Business Scenarios
+[Test](exercises/Exercise15.md)
+The model was used to create a readme like this one
 
 ## Exercise 16: Collaborative Problem Solving with Tree of Thoughts
+[Test](exercises/Exercise16.md)
+Even with a Zero-shot approach the model was able to generate the output.
 
 ## Exercise 17: Crafting Mind-Blowing Prompts
+[Test](exercises/Exercise17.md)
+The model was able to use 2 different topics, in this case clear code and python and combine them to generate som examples.
 
 ## Exercise 18: Writing Style Assessment and Mimicry
+[Test](exercises/Exercise18.md)
+
+The tag let me use a Zero-shot approach  with a new from internet
 
 ## Exercise 19: Hyperbole and Creative Copywriting
+[Test](exercises/Exercise19.md)
 
 ## Exercise 20: Crafting and Testing Super Prompts
+[Test](exercises/Exercise20.md)
 
 ## Extramiles
-[Consulting Assistant in VS code](Consulting_Assitant.ipynb)
-[WCA in VS code](Watson_Content_Assitant.ipynb)
+[Consulting Assistant in VS code](integrations/Consulting_Assitant.ipynb)
+[WCA in VS code](integrations/Watson_Content_Assitant.ipynb)
